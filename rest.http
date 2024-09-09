@@ -1,0 +1,38 @@
+@baseUrl = http://localhost:8000/api/v1/task
+
+### Get Request
+GET {{baseUrl}}
+
+
+### Post Request
+POST  {{baseUrl}}
+Content-Type: application/json
+
+{   
+    "task": "reading",
+    "hour": 5
+   
+  
+}
+
+### Patch Request
+PATCH   {{baseUrl}}
+Content-Type: application/json
+
+{
+   "_id":"66d9d2ee690c7deb4d06840f",
+   "type":"bad"
+}
+
+### Delete Request
+DELETE  {{baseUrl}}
+Content-Type: application/json
+
+    [
+        "66dc1e6d2434d9c0c9813e14",
+        "66dc26572434d9c0c9813e16"
+    ]
+
+
+
+
